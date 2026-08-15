@@ -1,0 +1,21 @@
+[Unit]
+Description=Desktop notification archiver
+Documentation=https://github.com/tonischmitt/notification-history
+PartOf=graphical-session.target
+After=graphical-session.target dbus.socket
+Wants=dbus.socket
+# Never give up: while the recorder is down, notifications are lost for good.
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/notification-logger
+Restart=always
+RestartSec=5
+Slice=background.slice
+NoNewPrivileges=true
+PrivateTmp=true
+RestrictSUIDSGID=true
+
+[Install]
+WantedBy=graphical-session.target

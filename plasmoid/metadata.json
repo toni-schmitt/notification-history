@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Toni Schmitt"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Browse every notification ever sent on this desktop",
+        "Icon": "preferences-desktop-notification",
+        "Id": "local.notificationhistory",
+        "License": "MIT",
+        "Name": "Notification History",
+        "Version": "0.1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "ApplicationStatus"
+}

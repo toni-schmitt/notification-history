@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Notification History
+GenericName=Notification Archive
+Comment=Browse every notification ever sent on this desktop
+Exec=@BINDIR@/notification-history
+Icon=preferences-desktop-notification
+Terminal=false
+Categories=Qt;KDE;Utility;
+Keywords=notification;history;log;archive;notifications;
+StartupNotify=true
