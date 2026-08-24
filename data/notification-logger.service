@@ -1,6 +1,6 @@
 [Unit]
 Description=Desktop notification archiver
-Documentation=https://github.com/tonischmitt/notification-history
+Documentation=https://github.com/toni-schmitt/notification-history
 PartOf=graphical-session.target
 After=graphical-session.target dbus.socket
 Wants=dbus.socket

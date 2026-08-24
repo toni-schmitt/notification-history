@@ -1,0 +1,10 @@
+# Normalise line endings on the way in; these are all Linux-only files.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.db binary
+
+# QML has no linguist support of its own; keep it out of the language stats
+# rather than have it counted as something else.
+*.qml linguist-language=QML

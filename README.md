@@ -31,7 +31,7 @@ sudo dnf install python3-dbus python3-gobject-base python3-pyside6
 ## Installation
 
 ```bash
-git clone <this repo> notification-history
+git clone https://github.com/toni-schmitt/notification-history.git
 cd notification-history
 ./install.sh
 ```
